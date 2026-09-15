@@ -1,4 +1,4 @@
-# Fiche projet — Équipe NN 22
+ # Fiche projet — Équipe NN 22
 
 > Livrable L2 · Jalon J1 (samedi 29 août 2026) · validée par l'encadreur référent.
 > Aucune fabrication n'est autorisée avant la validation de ce jalon.

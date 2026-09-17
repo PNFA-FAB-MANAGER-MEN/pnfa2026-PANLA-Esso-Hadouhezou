@@ -8,21 +8,23 @@
 Le dispositif D22, est un dispositif qui permettra de mesurer la qualité de l'air et l'état de la température dans les Fablab et dans les salles de classe ou locaux hermetiquement fermé au seins de l'éablissement
 
 ## 2. Besoin et bénéficiaires
-- Les Fabmanager et les élèves ont besoin de savoir en permanence la qualité de l'air ainsi que la température dans leur environnement de travail dans les lab et locaux fermé surtout pour la prévention de leur santé et aussi pour savoir s'il y'a des anomalies au seins de leurs didpositif ou appareil. Ce dispositif sera installé dans les fablab et aussi dans les salles de classe qui en auront besoins.
-
-- La difficulté d'apprentissage visée se definit dans la conception du didpositif, l'impression ou la fabriction ainsi que la connection ou le cablage du dispositif
-
-- les élèves concernés sont les élèves inscrit dans les fablabs dédiés avec un niveau favorable à l'apprentissage
-
-- l'établissement d'accueil sont les fablabet les CRIT.
+Dans les centres de formation technique et les écoles scientifiques, les salles de cours, laboratoires, ateliers et salles informatiques sont des espaces où il est utile de suivre les conditions ambiantes. Comment réaliser un dispositif simple, autonome et pédagogique permettant de surveiller la qualité de l’air, la température, l’humidité et la présence, tout en réduisant la consommation de l’affichage et en fournissant une alerte en cas de condition anormale ? 
 
 ## 3. Objectifs d'apprentissage
 
-Trois objectifs observables rattachés au programme officiel, chapitre cité.
+Le présent projet propose un prototype embarqué capable de mesurer plusieurs paramètres, de détecter la présence d’une personne, d’afficher les informations sur un écran OLED et de déclencher une alarme sonore lorsqu’un seuil programmé est dépassé. L’alimentation sur deux batteries 18650 permet de présenter un système autonome.
 
-1.
-2.
-3.
+les objectifs observables rattachés au programme officiel, sont les suivants:
+
+- Mesurer un indicateur de qualité de l’air avec le MQ-135.
+- Mesurer la température et l’humidité avec le DHT22.
+- Détecter une présence par mesure de distance avec le HC-SR04.
+- Afficher les informations sur un OLED 0,96″ à interface I²C.
+- Allumer l’affichage en présence et l’éteindre après une période d’absence.
+- Déclencher un buzzer lorsque des seuils programmés sont dépassés.
+- Assurer l’alimentation du prototype avec deux cellules 18650 de 3,7 V et 3000 mAh.
+- Intégrer un interrupteur/bouton d’allumage et des résistances de protection/adaptation.
+
 
 ## 4. Description du dispositif
 
@@ -37,7 +39,7 @@ Trois objectifs observables rattachés au programme officiel, chapitre cité.
  · croquis ou esquisse annotée
 (versée dans `docs/medias/`).
 
-## 5. Architecture technique pressentie
+## 5. Architecture technique presenté
 
 ### a. Capteurs 
 - Un capteur de dioxyde de carbone à mesure infra rouge non dispersive
